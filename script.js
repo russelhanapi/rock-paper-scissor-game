@@ -7,6 +7,5 @@ let getComputerChoice = function () {
 
 let getHumanChoice = function () {
   let userInput = prompt("What's your pick? [Rock/Paper/Scissor]");
-  console.log("userInput");
   return userInput;
 };
