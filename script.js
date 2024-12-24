@@ -1,17 +1,12 @@
 let getComputerChoice = function () {
   let randomNumber = Math.floor(Math.random() * 3);
-  switch (randomNumber) {
-    case 0:
-      console.log("Rock");
-      break;
-    case 1:
-      console.log("Paper");
-      break;
-    case 2:
-      console.log("Scissor");
-      break;
-  }
-  return;
+  if (randomNumber === 0) return "Rock";
+  else if (random === 1) return "Paper";
+  else return "Scissors";
 };
 
-console.log(getComputerChoice());
+let getHumanChoice = function () {
+  let userInput = prompt("What's your pick? [Rock/Paper/Scissor]");
+  console.log("userInput");
+  return userInput;
+};
