@@ -1,3 +1,6 @@
+const computerScore = 0;
+const humanScore = 0;
+
 let getComputerChoice = function () {
   let randomNumber = Math.floor(Math.random() * 3);
   if (randomNumber === 0) return "Rock";
